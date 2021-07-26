@@ -1,18 +1,16 @@
 from distutils.core import setup
 setup(
-  name = 'uwu',
-  packages = ['uwu'],
+  name = 'uwuizer',
+  packages = ['uwuizer'],
   version = '1.0.0',
   license='MIT',
   description = 'uwu text generator ٩(◕‿◕｡)۶',
   author = 'Philip Jones',
   author_email = 'philipjonesma@gmail.com',
-  url = 'https://github.com/philinphiladelphia/uwuize',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
+  url = 'https://github.com/Philinphiladelphia/uwu',
+  download_url = 'https://github.com/Philinphiladelphia/uwu/archive/refs/tags/v_1.0.0.tar.gz',
   keywords = ['uwu', "( ‾́ ◡ ‾́ )"], 
-  install_requires=[            # I get to this in a second
-          'validators',
-          'beautifulsoup4',
+  install_requires=[
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',

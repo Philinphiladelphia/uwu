@@ -1,1 +1,0 @@
-from uwu.main import owoize
