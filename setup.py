@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'uwuizer',
   packages = ['uwuizer'],
-  version = '1.0.0',
+  version = '1.0.1',
   license='MIT',
   description = 'uwu text generator ٩(◕‿◕｡)۶',
   author = 'Philip Jones',

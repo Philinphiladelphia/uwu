@@ -1,6 +1,6 @@
 import re
 
-def owoize(strings):
+def owoize(string):
     #Note that order is important in these as they are executed in order
     patterns = {
         r"\?$" : "Ouuh~wOuuh~♪",
@@ -15,7 +15,6 @@ def owoize(strings):
 
     for key in patterns:
         regex = re.compile(key)
-        for i in range(len(strings)):
-            strings[i] = re.sub(key, patterns[key], strings[i])
+        string = re.sub(key, patterns[key], string)
 
-    return strings
+    return string
